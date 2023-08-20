@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+/* body{
+    height: 100%;
+    width: 100%;
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./assests/pexels-maxyne-barcel-10402282\ 1.png'); */
+    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),
+    url("./assests/pexels-maxyne-barcel-10402282\ 1.png"); */
+    /* background-size: cover; */
+    /* z-index: -1; */
+  
+   /* position: fixed; */ 
+   body{
+   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("./assests/pexels-maxyne-barcel-10402282\ 1.png");
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+    background-attachment: fixed;
+   }
+nav{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navImg{
+    height: 70%;
+    width: 70%;
+}
+.navlist{
+    display: flex;
+    align-items: center;
+    gap:40px;
+    list-style: none;
+    color: #ffc233;
+    font-size: 16px;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}   
+.navlistItem{
+    justify-content: space-around;
+}
+.navBtn{
+    padding: 10px 40px;
+    background-color: #ff515f;
+    color: #ffff;
+    border: 1px solid #ff515f;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+main{
+ margin-top: 120px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.desc{
+    margin: 30px 350px;
+    text-align: center;
+}
+.heading{
+    font-family: "Dela Gothic One", cursive;
+    font-size: 60px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    color: #ffc233;
+}
+.readMenuBtn{
+    font-size: 18px;
+    padding: 20px 40px;
+    background-color: #ff515f;
+    color: #ffff;
+    border: 1px solid #ff515f;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+
+}
+footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+footer img {
+    height: 150px;
+    width: 150px;
+    margin:10px 20px ;
+}
